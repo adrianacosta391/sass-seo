@@ -1,0 +1,14 @@
+@mixin boton ($padding, $border-radius, $color) {
+
+padding: $padding;
+border-radius: $border-radius;
+color: $color;
+}
+
+
+@mixin div ($bg, $border-rad, $border) {
+
+    background-color: $bg;
+    border-radius: $border-rad;
+    border: $border;
+}

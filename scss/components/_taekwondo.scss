@@ -1,0 +1,20 @@
+@import '../base/maps';
+
+.new-text {
+
+    color: map-get($lector, text-color );
+
+}
+
+
+.draw {
+
+    background-color: map-get($lector, bg-color);
+}
+
+.draw-item {
+
+    font-size: map-get($lector, font-si);
+    color: map-get($lector, text-color);
+    
+}

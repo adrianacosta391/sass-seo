@@ -1,0 +1,26 @@
+@import '../base/mixin';
+
+
+.text-cont {
+
+    @extend %box;
+
+    .text-item {
+
+        @extend %escribir;
+        text-align: center;
+    }
+}
+
+.boton-cont {
+
+    @include div (rgb(158, 35, 31), 2px, 1px solid black);
+    display: flex;
+}
+
+.boton-galeria {
+
+    @include boton (4px, 6px, black);
+    margin: auto;
+    
+}

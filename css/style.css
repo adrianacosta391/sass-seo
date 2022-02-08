@@ -1,0 +1,70 @@
+.bg-riqui {
+  background-color: #fa2c2c;
+}
+
+.img-container {
+  background-color: #252525;
+}
+
+.where {
+  background-color: crimson;
+}
+.where .container-infra {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.where .container-infra .responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.text-cont .text-item {
+  text-align: center;
+}
+
+.boton-cont {
+  background-color: #9e231f;
+  border-radius: 2px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.boton-galeria {
+  padding: 4px;
+  border-radius: 6px;
+  color: black;
+  margin: auto;
+}
+
+.new-text {
+  color: red;
+}
+
+.draw {
+  background-color: gray;
+}
+
+.draw-item {
+  font-size: 45px;
+  color: red;
+}
+
+.text-cont {
+  background-color: red;
+  margin-top: 10px;
+}
+
+.text-cont .text-item {
+  color: black;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
